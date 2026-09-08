@@ -65,11 +65,11 @@ Pruebas de estructura y límites utilizando la API de **JSONPlaceholder**:
 
 ```text
 JSON-placeholder/
-├── allure-results/          # Resultados de ejecución generados por Allure
-├── tests/                   # Suites de pruebas automatizadas
-│   ├── 01-reqres-crud.spec.ts        # Suite de ciclo de vida completo (CRUD)
-│   └── 02-jsonplaceholder-get.spec.ts # Suite de contratos, volumen y errores HTTP
-├── .env                     # Variables de entorno locales
-├── package.json             # Scripts de ejecución y dependencias del proyecto
-├── playwright.config.ts     # Configuración global del runner (Proyectos API, Allure, Headers)
-└── README.md                # Documentación principal del proyecto
+├── allure-results/                       # Resultados de ejecución generados por Allure
+├── tests/                                # Suites de pruebas automatizadas
+│   ├── 01-reqres-crud.spec.ts            # Suite de ciclo de vida completo (CRUD)
+│   └── 02-jsonplaceholder-get.spec.ts    # Suite de contratos, volumen y errores HTTP
+├── .env                                  # Variables de entorno locales
+├── package.json                          # Scripts de ejecución y dependencias del proyecto
+├── playwright.config.ts                  # Configuración global del runner (Proyectos API, Allure, Headers)
+└── README.md                             # Documentación principal del proyecto
